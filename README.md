@@ -1,16 +1,147 @@
-# React + Vite
+# 📅 Interactive Wall Calendar (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive calendar component inspired by a physical wall calendar design.
+This project focuses on combining **aesthetic UI** with **real user interactions** like date range selection and note-taking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🧷 **Realistic Wall Calendar UI**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Inspired by physical hanging calendars
+  * Includes custom SVG spiral binding for realism
 
-## Expanding the ESLint configuration
+* 📆 **Accurate Calendar Logic**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Proper month rendering (previous + next month dates included)
+  * Monday-first layout
+
+* 🖱 **Date Range Selection**
+
+  * Click or drag to select a range
+  * Start, end, and in-between dates are visually highlighted
+
+* 📝 **Per-Day Notes**
+
+  * Click any date to add notes
+  * Notes are saved using `localStorage` (no backend required)
+
+* 📓 **Notebook-style Notes UI**
+
+  * Styled textarea with realistic writing lines
+  * Clean and intuitive writing experience
+
+* 🎨 **Responsive Design**
+
+  * Works smoothly on both desktop and mobile
+  * Layout adapts using Tailwind CSS
+
+* 🌓 **Modern UI/UX**
+
+  * Smooth hover states
+  * Clear visual hierarchy
+  * Minimal and clean design
+
+---
+
+## 🛠 Tech Stack
+
+* **React (Vite)** – component-based architecture
+* **Tailwind CSS** – utility-first styling
+* **Day.js** – lightweight date manipulation
+* **SVG** – for realistic spiral binding UI
+* **localStorage** – for client-side persistence
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   └── Calendar.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/calendar-app.git
+cd calendar-app
+```
+
+### 2. Install dependencies
+
+```
+npm install
+```
+
+### 3. Start development server
+
+```
+npm run dev
+```
+
+### 4. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 💡 Key Implementation Decisions
+
+* **SVG for Binding:**
+  Instead of simple CSS, SVG was used to create a realistic spiral binding for a more authentic wall calendar feel.
+
+* **Custom Calendar Logic:**
+  Built manually (instead of using libraries) to demonstrate understanding of date calculations and rendering.
+
+* **Range Selection UX:**
+  Implemented using mouse events (`onMouseDown`, `onMouseEnter`, `onMouseUp`) to simulate real calendar interactions.
+
+* **Local Storage for Notes:**
+  Keeps the project frontend-only while still providing persistence.
+
+* **Tailwind CSS:**
+  Used for fast, responsive styling and consistent design.
+
+---
+
+## 📌 Future Improvements
+
+* 🌙 Dark mode support
+* 📅 Holiday highlights (India-specific)
+* 🎬 Animations (page flip / transitions)
+* 📱 Touch drag support for mobile
+* 📊 Multiple month view (like booking apps)
+
+---
+
+## 🎥 Demo
+
+👉 (Add your Loom / YouTube link here)
+
+---
+
+## 🌐 Live Demo (Optional)
+
+👉 (Add your Vercel / Netlify link here)
+
+---
+
+## 🙌 Final Note
+
+This project was built to demonstrate both **UI craftsmanship** and **frontend engineering skills**, focusing on detail, usability, and clean component design.
+
+---
+
+⭐ If you like this project, feel free to star the repo!
