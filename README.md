@@ -1,43 +1,43 @@
-# 📅 Interactive Wall Calendar (React + Tailwind)
+#  Interactive Wall Calendar (React + Tailwind)
 
 A modern, interactive calendar component inspired by a physical wall calendar design.
 This project focuses on combining **aesthetic UI** with **real user interactions** like date range selection and note-taking.
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🧷 **Realistic Wall Calendar UI**
+*  **Realistic Wall Calendar UI**
 
   * Inspired by physical hanging calendars
   * Includes custom SVG spiral binding for realism
 
-* 📆 **Accurate Calendar Logic**
+*  **Accurate Calendar Logic**
 
   * Proper month rendering (previous + next month dates included)
   * Monday-first layout
 
-* 🖱 **Date Range Selection**
+*  **Date Range Selection**
 
   * Click or drag to select a range
   * Start, end, and in-between dates are visually highlighted
 
-* 📝 **Per-Day Notes**
+*  **Per-Day Notes**
 
   * Click any date to add notes
   * Notes are saved using `localStorage` (no backend required)
 
-* 📓 **Notebook-style Notes UI**
+*  **Notebook-style Notes UI**
 
   * Styled textarea with realistic writing lines
   * Clean and intuitive writing experience
 
-* 🎨 **Responsive Design**
+*  **Responsive Design**
 
   * Works smoothly on both desktop and mobile
   * Layout adapts using Tailwind CSS
 
-* 🌓 **Modern UI/UX**
+*  **Modern UI/UX**
 
   * Smooth hover states
   * Clear visual hierarchy
@@ -45,7 +45,7 @@ This project focuses on combining **aesthetic UI** with **real user interactions
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **React (Vite)** – component-based architecture
 * **Tailwind CSS** – utility-first styling
@@ -73,7 +73,7 @@ src/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/calendar-app.git
+git clone https://github.com/Shivendra188/Calender.git
 cd calendar-app
 ```
 
@@ -126,22 +126,18 @@ http://localhost:5173
 
 ---
 
-## 🎥 Demo
 
-👉 (Add your Loom / YouTube link here)
 
----
+##  Live Demo (Optional)
 
-## 🌐 Live Demo (Optional)
-
-👉 https://calendershivendra.netlify.app/
+ https://calendershivendra.netlify.app/
 
 ---
 
-## 🙌 Final Note
+##  Final Note
 
 This project was built to demonstrate both **UI craftsmanship** and **frontend engineering skills**, focusing on detail, usability, and clean component design.
 
 ---
 
-⭐ If you like this project, feel free to star the repo!
+ If you like this project, feel free to star the repo!
