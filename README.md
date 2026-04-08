@@ -134,7 +134,7 @@ http://localhost:5173
 
 ## 🌐 Live Demo (Optional)
 
-👉 (Add your Vercel / Netlify link here)
+👉 https://calendershivendra.netlify.app/
 
 ---
 
