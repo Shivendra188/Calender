@@ -55,7 +55,7 @@ This project focuses on combining **aesthetic UI** with **real user interactions
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -68,7 +68,7 @@ src/
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 
@@ -97,7 +97,7 @@ http://localhost:5173
 
 ---
 
-## 💡 Key Implementation Decisions
+##  Key Implementation Decisions
 
 * **SVG for Binding:**
   Instead of simple CSS, SVG was used to create a realistic spiral binding for a more authentic wall calendar feel.
@@ -116,13 +116,13 @@ http://localhost:5173
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
-* 🌙 Dark mode support
-* 📅 Holiday highlights (India-specific)
-* 🎬 Animations (page flip / transitions)
-* 📱 Touch drag support for mobile
-* 📊 Multiple month view (like booking apps)
+*  Dark mode support
+*  Holiday highlights (India-specific)
+*  Animations (page flip / transitions)
+*  Touch drag support for mobile
+*  Multiple month view (like booking apps)
 
 ---
 
