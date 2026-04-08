@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Paper shadow */
+.paper {
+  box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+/* Blue diagonal */
+.blue-shape {
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 120px;
+  background: #2ea3d6;
+  clip-path: polygon(0 40%, 30% 70%, 70% 40%, 100% 60%, 100% 100%, 0% 100%);
+}
+
+/* White overlay */
+.white-shape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background: white;
+  clip-path: polygon(0 60%, 30% 80%, 70% 60%, 100% 80%, 100% 100%, 0% 100%);
+}
+
+/* Spiral binding */
+.binding {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 0;
+  background: #d1d5db;
+}
+
+/* Real spiral loop */
+.ring {
+  width: 6px;
+  height: 20px;
+  border: 2px solid #111;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+}
