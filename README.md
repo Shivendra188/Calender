@@ -40,6 +40,8 @@ This project focuses on combining **aesthetic UI** with **real user interactions
 
 ---
 
+
+
 ##  Tech Stack
 
 * **React (Vite)** – component-based architecture
