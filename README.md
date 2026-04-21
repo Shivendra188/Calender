@@ -15,7 +15,6 @@ This project focuses on combining **aesthetic UI** with **real user interactions
   * Click or drag to select a range
   * Start, end, and in-between dates are visually highlighted
 *  **Per-Day Notes**
-
   * Click any date to add notes
   * Notes are saved using `localStorage` (no backend required)
 
