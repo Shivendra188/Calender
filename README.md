@@ -19,6 +19,7 @@ This project focuses on combining **aesthetic UI** with **real user interactions
   * Click any date to add notes
   * Notes are saved using `localStorage` (no backend required)
 
+
 *  **Notebook-style Notes UI**
 
   * Styled textarea with realistic writing lines
