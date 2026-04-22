@@ -7,7 +7,6 @@ This project focuses on combining **aesthetic UI** with **real user interactions
  ##  Features
 *  **Realistic Wall Calendar UI**
   * Inspired by physical hanging calendars
-  * 
   * Includes custom SVG spiral binding for realism
 *  **Accurate Calendar Logic**
   * Proper month rendering (previous + next month dates included)
