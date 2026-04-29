@@ -3,7 +3,8 @@ A modern, interactive calendar component inspired by a physical wall calendar de
 This project focuses on combining **aesthetic UI** with **real user interactions** like date range selection and note-taking.
 ---
 ##  Live Demo (Optional)
- https://calendershivendra.netlify.app/ 
+ https://calendershivendra.netlify.app/
+ 
  ##  Features
 *  **Realistic Wall Calendar UI**
   * Inspired by physical hanging calendars
