@@ -67,8 +67,6 @@ src/
 git clone https://github.com/Shivendra188/Calender.git
 cd calendar-app
 ```
-
-
 ### 2. Install dependencies
 
 ```
