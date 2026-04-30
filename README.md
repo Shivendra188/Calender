@@ -19,7 +19,6 @@ This project focuses on combining **aesthetic UI** with **real user interactions
   * Notes are saved using `localStorage` (no backend required)
 
 *  **Notebook-style Notes UI**
-
   * Styled textarea with realistic writing lines
   * Clean and intuitive writing experience
 
